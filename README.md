@@ -1,7 +1,7 @@
 # 🎮 El Lotteria Game
 
 🚀 **A small lottery game inspired by the Mexican game El Lotteria, built with JavaScript.**  
-🎮 Play Now: [Live Game Link](https://your-game-link.com)
+🎮 Play Now: [Live Game Link]()
 
 ---
 
