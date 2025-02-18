@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# 🎨 El Lotteria Game Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 **Frontend service for the El Lotteria Game, providing a rich and interactive user interface.**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Features
+✅ **Multiplayer Gameplay** – Play with friends in real-time.  
+✅ **Smooth Animations** – Fluid graphics and transitions.  
+✅ **Leaderboard System** – Track scores and compete.  
+✅ **Mobile-Friendly** – Works on all devices.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **@emotion/react**: Library for writing CSS styles with JavaScript.
+- **@emotion/styled**: Library for writing styled components with emotion.
+- **@mui/material**: Material-UI components for building user interfaces.
+- **@testing-library/dom**: DOM testing utilities.
+- **@testing-library/jest-dom**: Custom jest matchers for testing DOM nodes.
+- **@testing-library/react**: Testing utilities for React components.
+- **@testing-library/user-event**: Simulates user events for testing.
+- **axios**: Promise-based HTTP client for making API requests.
+- **dotenv**: Loads environment variables from a `.env` file.
+- **framer-motion**: Library for animations and gestures in React.
+- **react**: JavaScript library for building user interfaces.
+- **react-confetti**: Confetti animation for celebratory effects.
+- **react-dom**: Entry point for React to the DOM.
+- **react-scripts**: Scripts and configuration used by Create React App.
+- **use-sound**: Hook for playing sound effects in React.
+- **web-vitals**: Library for measuring web performance metrics.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### 🔥 1. Clone the Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+git clone https://github.com/Pradyumansarswat/El-Lotteria-Game.git
+cd El-Lotteria-Game/frontend
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎨 Running the Frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 📌 Prerequisites
+- Ensure Node.js is installed.
 
-### `npm run eject`
+#### ⚡ Steps to Run Frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1️⃣ Navigate to the frontend folder (if not already there):
+```sh
+cd frontend
+```
+2️⃣ Install dependencies:
+```sh
+npm install
+```
+3️⃣ Set up environment variables:
+- Create a `.env` file in the frontend folder.
+- Add your API URL (example):
+```ini
+REACT_APP_API_URL=http://localhost:5000
+```
+4️⃣ Start the frontend:
+```sh
+npm start
+```
+The frontend should now be running at `http://localhost:3000`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🚀 Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### 🌍 Deploying Frontend on Vercel/Netlify
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Push your latest frontend code:
+```sh
+git add .
+git commit -m "Deploy frontend"
+git push origin main
+```
+2. Deploy on Vercel or Netlify.
+3. Set up environment variables in the settings.
 
-## Learn More
+### 🛠️ Troubleshooting
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Frontend API issues?** Make sure the backend URL is correctly set in `REACT_APP_API_URL`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ✨ Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m "Added new feature"`).
+4. Push to your fork (`git push origin feature-branch`).
+5. Open a Pull Request.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📜 License
 
-### Making a Progressive Web App
+This project is licensed under the terms specified in the repository.  
+Feel free to use and modify it as needed! 🎨🚀
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📞 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For support, contact:
+- 🐦 Twitter: [X](https://x.com/PradyumanCodes)
+- 📌 GitHub: [GitHub](https://github.com/Pradyumansarswat)
