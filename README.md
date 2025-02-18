@@ -149,5 +149,5 @@ Feel free to use and modify it as needed! 🎮🚀
 ## 📞 Contact
 
 For support, contact:
-- 🐦 Twitter: [@yourhandle](https://x.com/PradyumanCodes)
-- 📌 GitHub: [Your GitHub](https://github.com/Pradyumansarswat)
+- 🐦 Twitter: [X](https://x.com/PradyumanCodes)
+- 📌 GitHub: [GitHub](https://github.com/Pradyumansarswat)
