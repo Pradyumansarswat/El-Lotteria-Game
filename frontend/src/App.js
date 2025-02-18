@@ -60,7 +60,8 @@ function App() {
   const startGame = async () => {
     if (isGridFullyFilled(grid1) && isGridFullyFilled(grid2)) {
       try {
-        const response = await axios.post('http://localhost:8000/api/start', { grid1, grid2 });
+        // const response = await axios.post('http://localhost:8000/api/start', { grid1, grid2 });
+        const response = await axios.post('https://el-lotteria-game-backend-3.onrender.com/api/start', { grid1, grid2 });
         if (response.data) {
           setGameStarted(true);
         }
@@ -74,7 +75,8 @@ function App() {
 
   const generateRandomNumber = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/api/random-number');
+      // const response = await axios.get('http://localhost:8000/api/random-number');
+      const response = await axios.get('https://el-lotteria-game-backend-3.onrender.com/api/random-number');
       setRandomNumber(response.data.randomNumber);
       setGrid1(response.data.updatedGrid1);
       setGrid2(response.data.updatedGrid2);
